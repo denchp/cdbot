@@ -19,7 +19,6 @@ module.exports = env => {
             new HtmlWebpackPlugin({
                 template: './src/index.html',
                 chunksSortMode: 'none',
-                icon: './src/components/assets/Heads-up-Hockey.png'
             })
         ],
         resolve: {
